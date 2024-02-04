@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.map {
+  position: relative;
+  height: 100wh;
+  flex: 1;
+  margin-left: 369px;
+}
+
+/* .menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100;
+  width: 369px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+} */
+
+.line1 {
+  position: absolute;
+  left: 0;
+  top: 287px;
+  width: 369px;
+  height: 1px; /* Толщина линии */
+  border-top: 1px solid rgba(0, 0, 0, 0.15); /* Черный цвет с прозрачностью 15% */
+}
+
+.line2 {
+  position: absolute;
+  left: 0;
+  top: 521px;
+  width: 369px;
+  height: 1px; /* Толщина линии */
+  border-top: 1px solid rgba(0, 0, 0, 0.15); /* Черный цвет с прозрачностью 15% */
+}
+
+.line3 {
+  position: absolute;
+  left: 0;
+  top: 683px;
+  width: 369px;
+  height: 1px; /* Толщина линии */
+  border-top: 1px solid rgba(0, 0, 0, 0.15); /* Черный цвет с прозрачностью 15% */
+}
+
+.chevronsLeftIcon {
+  position: absolute;
+  top: 500px;
+  left: 372px;
+  object-fit: cover;
+  z-index: 3;
+}
+
+.rectangleDiv {
+  position: absolute;
+  top: 478px;
+  left: 369px;
+  border-top-left-radius: 0; 
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31px;
+  height: 67px;
+  z-index: 2;
+}
+
+.icon {
+  position: absolute;
+  top: 59px;
+  left: 27px;
+  width: 315px;
+  height: 185px;
+  object-fit: cover;
+}
+
+.b {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.div {
+  position: absolute;
+  top: 251px;
+  left: 50px;
+  width: 139px;
+  height: 16px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-noto-sans);
+}
+
+.div1 {
+  position: absolute;
+  top: 0;
+  left: 73px;
+  letter-spacing: 0.02em;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #7E7E7E;
+}
+
+.div2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.02em;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #7E7E7E;
+}
+
+.div3 {
+  position: absolute;
+  top: 708px;
+  left: 17px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.div4 {
+  position: absolute;
+  left: 17px;
+  top: 611px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.div5 {
+  position: absolute;
+  left: 17px;
+  top: 541px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.div6 {
+  position: absolute;
+  left: 17px;
+  top: 378px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.div7 {
+  position: absolute;
+  left: 17px;
+  top: 305px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.div8 {
+  position: absolute;
+  left: 17px;
+  top: 447px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.mapPinIcon {
+  position: absolute;
+  top: 249px;
+  left: 27px;
+  width: 17px;
+  height: 17px;
+  color: #7E7E7E;
+}
+
+.example {
+  position: absolute;
+  top: 740px;
+  left: 17px;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.example1 {
+  position: absolute;
+  left: 17px;
+  top: 642px;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Inter', sans-serif;
+}
+
+.example2 {
+  position: absolute;
+  left: 17px;
+  top: 573px;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Inter', sans-serif;
+}
+
+.example3 {
+  position: absolute;
+  left: 17px;
+  top: 409px;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Inter', sans-serif;
+}
+
+.example4 {
+  position: absolute;
+  left: 17px;
+  top: 336px;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Inter', sans-serif;
+}
+
+.example5 {
+  position: absolute;
+  left: 17px;
+  top: 478px;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidebaropened {
+  width: 369px;
+  background-color: white;
+  /* padding: 20px; */
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* .desktop1 {
+  width: 1440px;
+  position: absolute;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+} */
+
+.container {
+  position: relative;
+}
+
+.containerSideBar {
+  display: flex;
+  position: relative;
+}
