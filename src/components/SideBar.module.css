@@ -92,6 +92,21 @@ body {
   font-weight: 700;
 }
 
+.b2 {
+  position: absolute;
+  white-space: pre-wrap;
+  top: 52.09px;
+  left: 64px;
+  width: 245px;
+  height: 115px;
+  font-size: 27px;
+  letter-spacing: 0.02em;
+  line-height: 35px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
 .div {
   position: absolute;
   top: 251px;
@@ -256,7 +271,10 @@ body {
   box-sizing: border-box;
   position: absolute;
   height: 100%;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* .desktop1 {
@@ -278,4 +296,81 @@ body {
 .containerSideBar {
   display: flex;
   position: relative;
+  overflow-y: auto;
+}
+
+.fileUpload {
+  position: relative;
+  /* overflow: hidden; */
+  display: inline-block;
+}
+
+.fileInput {
+  position: absolute;
+  z-index: 1;
+  top: 176px;
+  left: 80px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.button {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  top: 176px;
+  left: 80px;
+  width: 213px;
+  height: 45px;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 40px;
+  border: 2px solid transparent;
+  color: white;
+  background-color: #0071E3;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.buttonBack {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  top: 16px;
+  left: 27px;
+  width: 80px;
+  height: 27px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  border: 2px solid transparent;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #0071E3;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Стиль при наведении */
+.buttonBack:hover,
+.button:hover {
+  background-color: #0079f2;
+  color: #ffffff;
+}
+
+/* Стиль при нажатии */
+.buttonBack:active,
+.button:active {
+  background-color: #06C;
+  color: #ffffff;
+}
+
+.arrowBack {
+  width: 15px;
+  height: 15px;
 }

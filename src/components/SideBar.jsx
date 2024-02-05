@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+// import { useHistory } from 'react-router-dom';
 import styles from "./SideBar.module.css";
 import MapPinIcon from "./MapPinIcon";
 import Map from "./Map";
+import ArrowLeftIcon from './ArrowLeftIcon';
 
 const SideBar = () => {
   const [selectedCoordinate, setSelectedCoordinate] = useState(null);
@@ -59,6 +61,13 @@ const SideBar = () => {
         console.error(error);
       }
     }
+
+  // const history = useHistory();
+  
+  // const goBack = () => {
+  //   history.goBack(); // Используйте этот метод для перехода назад
+  // };
+
   };
 
   return (
@@ -68,6 +77,10 @@ const SideBar = () => {
         <div className={styles.sidebaropened}>
           {selectedCoordinate && eventDb ? (
             <>
+              <button className={styles.buttonBack}>
+                  <ArrowLeftIcon className={styles.arrowBack}/>
+                  <span>Назад</span>
+              </button>
               <b className={styles.b}>Сведения о повреждении</b>
 
               {/* Фото повреждения */}
@@ -111,17 +124,18 @@ const SideBar = () => {
                     :"Нет данных"}</div>
               <div className={styles.line3}></div>
             </>
-          ) : (<div>
-                <p className={styles.b}>
-                  Выберите точку<br></br>
-                  Или<br></br>
-                  Отправьте новое фото<br></br>
-                  <input type="file" onChange={handleFileChange}/>
-                  <button onClick={handleUpload}>Upload</button>
-
-                </p>
-
+          ) : (
+            <>
+              <div className={styles.b2}>
+                Выберите Точку<br/>
+                Или<br/>
+                Загрузите Фото
               </div>
+              <div className={styles.fileUpload}>
+                <input type="file" onChange={handleFileChange} className={styles.fileInput} />
+                <button className={styles.button} onClick={handleUpload}>Загрузить</button>
+              </div>
+            </>
           )}
         </div>
 
@@ -129,6 +143,7 @@ const SideBar = () => {
         <div className={styles.map}>
           <Map onMarkerClick={handleMarkerClick} />
         </div>
+        
       </div>
     </>
   );
