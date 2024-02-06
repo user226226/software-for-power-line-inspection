@@ -24,7 +24,7 @@ body {
 .line1 {
   position: absolute;
   left: 0;
-  top: 287px;
+  top: 333.7px;
   width: 369px;
   height: 1px; /* Толщина линии */
   border-top: 1px solid rgba(0, 0, 0, 0.15); /* Черный цвет с прозрачностью 15% */
@@ -33,7 +33,7 @@ body {
 .line2 {
   position: absolute;
   left: 0;
-  top: 521px;
+  top: 571px;
   width: 369px;
   height: 1px; /* Толщина линии */
   border-top: 1px solid rgba(0, 0, 0, 0.15); /* Черный цвет с прозрачностью 15% */
@@ -42,7 +42,7 @@ body {
 .line3 {
   position: absolute;
   left: 0;
-  top: 683px;
+  top: 733px;
   width: 369px;
   height: 1px; /* Толщина линии */
   border-top: 1px solid rgba(0, 0, 0, 0.15); /* Черный цвет с прозрачностью 15% */
@@ -75,16 +75,16 @@ body {
 
 .icon {
   position: absolute;
-  top: 59px;
+  top: 93.23px;
   left: 27px;
   width: 315px;
-  height: 185px;
+  height: 195.12px;
   object-fit: cover;
 }
 
 .b {
   position: absolute;
-  top: 20px;
+  top: 52.09px;
   left: 50px;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -109,7 +109,7 @@ body {
 
 .div {
   position: absolute;
-  top: 251px;
+  top: 295.73px;
   left: 50px;
   width: 139px;
   height: 16px;
@@ -142,8 +142,8 @@ body {
 
 .div3 {
   position: absolute;
-  top: 708px;
-  left: 17px;
+  top: 758px;
+  left: 27px;
   font-size: 16px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
@@ -151,8 +151,8 @@ body {
 
 .div4 {
   position: absolute;
-  left: 17px;
-  top: 611px;
+  left: 27px;
+  top: 661px;
   font-size: 16px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
@@ -160,8 +160,8 @@ body {
 
 .div5 {
   position: absolute;
-  left: 17px;
-  top: 541px;
+  left: 27px;
+  top: 591px;
   font-size: 16px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
@@ -169,8 +169,8 @@ body {
 
 .div6 {
   position: absolute;
-  left: 17px;
-  top: 378px;
+  left: 27px;
+  top: 428px;
   font-size: 16px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
@@ -178,8 +178,8 @@ body {
 
 .div7 {
   position: absolute;
-  left: 17px;
-  top: 305px;
+  left: 27px;
+  top: 355px;
   font-size: 16px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
@@ -187,8 +187,8 @@ body {
 
 .div8 {
   position: absolute;
-  left: 17px;
-  top: 447px;
+  left: 27px;
+  top: 497px;
   font-size: 16px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
@@ -196,7 +196,7 @@ body {
 
 .mapPinIcon {
   position: absolute;
-  top: 249px;
+  top: 293.62px;
   left: 27px;
   width: 17px;
   height: 17px;
@@ -205,8 +205,8 @@ body {
 
 .example {
   position: absolute;
-  top: 740px;
-  left: 17px;
+  top: 790px;
+  left: 27px;
   letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: 300;
@@ -216,8 +216,8 @@ body {
 
 .example1 {
   position: absolute;
-  left: 17px;
-  top: 642px;
+  left: 27px;
+  top: 692px;
   letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: 300;
@@ -226,8 +226,8 @@ body {
 
 .example2 {
   position: absolute;
-  left: 17px;
-  top: 573px;
+  left: 27px;
+  top: 623px;
   letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: 300;
@@ -236,8 +236,8 @@ body {
 
 .example3 {
   position: absolute;
-  left: 17px;
-  top: 409px;
+  left: 27px;
+  top: 459px;
   letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: 300;
@@ -246,8 +246,8 @@ body {
 
 .example4 {
   position: absolute;
-  left: 17px;
-  top: 336px;
+  left: 27px;
+  top: 386px;
   letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: 300;
@@ -256,8 +256,8 @@ body {
 
 .example5 {
   position: absolute;
-  left: 17px;
-  top: 478px;
+  left: 27px;
+  top: 528px;
   letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: 300;
@@ -340,8 +340,8 @@ body {
   z-index: 0;
   display: flex;
   top: 16px;
-  left: 10px;
-  width: 30px;
+  left: 27px;
+  width: 80px;
   height: 27px;
   cursor: pointer;
   align-items: center;

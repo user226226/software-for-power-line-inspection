@@ -79,7 +79,7 @@ const SideBar = () => {
             <>
               <button className={styles.buttonBack}>
                   <ArrowLeftIcon className={styles.arrowBack}/>
-                  <span></span>
+                  <span>Назад</span>
               </button>
               <b className={styles.b}>Сведения о повреждении</b>
 
