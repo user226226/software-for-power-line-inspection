@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { useHistory } from 'react-router-dom';
 import styles from "./SideBar.module.css";
 import MapPinIcon from "./MapPinIcon";
 import Map from "./Map";
@@ -61,13 +60,11 @@ const SideBar = () => {
         console.error(error);
       }
     }
+  };
 
-  // const history = useHistory();
-  
-  // const goBack = () => {
-  //   history.goBack(); // Используйте этот метод для перехода назад
-  // };
-
+  const handleBackClick = () => {
+    // Обработчик клика на кнопку "Назад"
+    setSelectedCoordinate(null);
   };
 
   return (
@@ -77,7 +74,7 @@ const SideBar = () => {
         <div className={styles.sidebaropened}>
           {selectedCoordinate && eventDb ? (
             <>
-              <button className={styles.buttonBack}>
+              <button className={styles.buttonBack} onClick={handleBackClick}>
                   <ArrowLeftIcon className={styles.arrowBack}/>
                   <span>Назад</span>
               </button>
