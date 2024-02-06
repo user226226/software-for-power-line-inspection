@@ -340,8 +340,8 @@ body {
   z-index: 0;
   display: flex;
   top: 16px;
-  left: 27px;
-  width: 80px;
+  left: 10px;
+  width: 30px;
   height: 27px;
   cursor: pointer;
   align-items: center;
